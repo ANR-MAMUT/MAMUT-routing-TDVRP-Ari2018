@@ -1,20 +1,20 @@
 {
     "instance_name": "Ari-A7-pB-d80-w50",
     "routes": [
-        [6, 15, 2, 14, 3, 13, 9, 8, 1, 11],
-        [5, 4, 12, 10],
+        [11, 6, 15, 2, 10],
+        [1, 4, 12, 8, 9, 13, 3, 14, 5],
         [7]
     ],
-    "cost": 540.8500000000004,
+    "cost": 537.8499999999999,
     "metadata": {
-        "source": "kayros 0.0.1.dev0 TD-ACO (seed=5772, time_limit=120.0s)",
+        "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [260.6500000000003, 163.74, 116.46000000000004],
+        "route_durations": [178.1700000000003, 243.21999999999957, 116.46000000000004],
         "route_departure_times": [1065.0, 1065.0, 1065.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 540.8500000000004,
+        "validated_cost": 537.8499999999999,
         "validated_num_routes": 3,
-        "date": "2026-07-04T21:36:21"
+        "date": "2026-07-06T05:01:41"
     },
     "objective_function": "Duration"
 }
