@@ -1,0 +1,24 @@
+{
+    "instance_name": "Ari-C10-pA-d98-w50",
+    "routes": [
+        [25, 13, 2, 7, 10, 19],
+        [8, 15, 20, 35, 12, 29],
+        [30, 31, 37],
+        [11, 18, 5, 36, 16],
+        [22, 39, 3, 27, 40, 34],
+        [21, 24, 38, 26, 33, 9, 4, 14, 6],
+        [28, 23, 32, 1, 17]
+    ],
+    "cost": 1549.279999999999,
+    "metadata": {
+        "source": "kayros 0.0.1.dev0 TD-ACO (seed=3141, time_limit=300.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [184.0899999999997, 216.7199999999998, 145.1300000000001, 265.7299999999998, 227.66999999999985, 271.77, 238.16999999999985],
+        "route_departure_times": [1065.0, 2058.05, 1080.0, 1065.0, 1065.0, 1999.2600000000002, 1080.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 1549.279999999999,
+        "validated_num_routes": 7,
+        "date": "2026-07-04T21:36:43"
+    },
+    "objective_function": "Duration"
+}
