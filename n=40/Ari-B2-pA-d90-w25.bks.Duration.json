@@ -9,16 +9,22 @@
         [31],
         [40, 5, 3, 17, 22, 30]
     ],
-    "cost": 1843.459999999998,
+    "cost": 1843.4599999999982,
     "metadata": {
         "authors": "Florian Rascoussier (0nyr)",
         "source": "kayros 0.4.0.dev0 TD-ACO+ILS (seed=123, time_limit=300.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
         "date": "2026-07-08T02:46:35",
-        "route_durations": [236.6999999999996, 249.0899999999997, 238.62000000000012, 280.7299999999998, 436.81999999999925, 115.03999999999996, 286.4599999999996],
-        "route_departure_times": [1065.0, 2018.7900000000004, 1065.0, 1080.0, 1832.5500000000006, 1065.0, 1970.8800000000006],
-        "validated_cost": 1843.459999999998,
-        "validated_num_routes": 7
+        "route_durations": [236.69999999999982, 249.0899999999997, 238.62000000000012, 280.7299999999998, 436.81999999999925, 115.03999999999996, 286.4599999999996],
+        "route_departure_times": [1065.0, 2018.7900000000004, 1065.0, 1065.0, 1832.5500000000006, 1065.0, 1970.8800000000006],
+        "validated_cost": 1843.4599999999982,
+        "validated_num_routes": 7,
+        "repriced": {
+            "previous_cost": 1843.459999999998,
+            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
+            "contract": "td-fold/2",
+            "date": "2026-09-24"
+        }
     },
     "objective_function": "Duration"
 }
