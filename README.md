@@ -23,3 +23,9 @@ Population pipeline: `populate_td_ari_vu` v1 (curation tooling maintained outsid
 ## Provenance and licensing
 
 Underlying raw data: the Arigliano et al. TD-TSPTW benchmark generator distribution. MAMUT-authored curation artifacts under the MIT license; this notice does not relicense the underlying third-party benchmark definitions.
+
+## Citation and benchmark authorship
+
+The authors, in citation order, are Adrien Pichon, Florian Rascoussier, Romain Billot, Lina Fahed, Alexandru-Liviu Olteanu, Marc Sevaux and Christine Solnon. The 2 lead authors are ordered alphabetically by surname, followed by the scientific supervisors in alphabetical order. Their ORCID identifiers are recorded in [CITATION.cff](CITATION.cff).
+
+The listed authors contribute the TDVRP adaptation of the Arigliano et al. TD-TSPTW distribution: generated demands, capacities, fleet sizes and service times, deterministic selection of 160 instances across the source parameters, and construction and validation of the published arrival-time-function representation. This variant removes the time windows to support comparison with the corresponding TDVRPTW benchmark. Cite this repository for these benchmark-design, generation and selection contributions, and cite the Arigliano et al. TD-TSPTW distribution for the original travel-time data and generator. The pinned legacy attribute files document the generated values used in the adaptation. Individual solution-contributor credits are recorded with the solutions. Record the exact Git commit used in experiments.
